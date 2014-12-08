@@ -3,7 +3,7 @@
 <!-- Living Direct Network -->
 <div id="networkHeader">
 
-<div class="contentasset"><!-- dwMarker="content" dwContentID="dgdOsiaag28jMaaaebfJeVcqWU" -->
+<div class="contentasset"><!-- dwMarker="content" dwContentID="dgdOsiaag28jMaaaebfJeVcqWU" 
 
 <div class="networkWelcome">
 <img src="<?php echo get_stylesheet_directory_uri();?>/images/network_bracket_left_132.png" width="124" height="10" alt="">
@@ -32,18 +32,7 @@
 
 </div>
 
-<!-- Start: pagecomponents/headertopline -->
-<div id="userlogin">
 
-<a title="Create an Account" href="https://www.livingdirect.com/on/demandware.store/Sites-LD-Site/default/Login-Register">Create an Account</a>&nbsp; | &nbsp;<a title="Sign In" href="https://www.livingdirect.com/on/demandware.store/Sites-LD-Site/default/Login-Show">Sign In</a>&nbsp; | &nbsp;
-
-<a title="Order Status" href="https://www.livingdirect.com/on/demandware.store/Sites-LD-Site/default/Login-OrderStatus">Order Status</a>&nbsp; | &nbsp;
-
-
-<span class="topCart">&nbsp;</span>
-<a title="View Cart" href="https://www.livingdirect.com/on/demandware.store/Sites-LD-Site/default/Cart-Show">Cart
-</a>
-</div>
 <!-- End: pagecomponents/headertopline -->
 </div>
 </div>

@@ -9,6 +9,10 @@
 		> [role="main"],  > div.content > [role="main"] {width: 100%;}
 		> [role="complementary"] {width: 100%;}
 	}
+	#mobile-header{ 
+		display: block;
+		background-color: yellow;
+	}	
 	/* Search Area */
 	#search-area {
 		margin-bottom: 1em;
@@ -151,3 +155,5 @@
 		}
 	}
 } // end media query
+
+

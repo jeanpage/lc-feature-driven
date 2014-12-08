@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 }
+/* -- OLD LD NETWORK HEADERS
 .networkWelcome {
 	margin: 3px 0 8px 6px;
 	color: #AAA;
@@ -39,8 +40,8 @@
 #header #headerTop #networkHeader .ld:hover { background-position: -168px -278px; }
 #header #headerTop #networkHeader .aaa:hover { background-position: -80px -275px; }
 #header #headerTop #networkHeader .keg:hover { background-position: -1px -314px; }
-#header #headerTop #networkHeader .wcd:hover { background-position: -92px -316px; }
-#header #headerTop #userlogin {
+#header #headerTop #networkHeader .wcd:hover { background-position: -92px -316px; }*/
+#userlogin {
 	display: inline;
 	float: right;
 	height: 32px;
@@ -49,16 +50,12 @@
 	color: #888175;
 	font-size: 12px;
 	text-align: right; }
-#header #headerTop #userlogin a { color: #267D92; font-weight:bold; }
-#header #headerTop #userlogin a:hover { color: #3cb1cc; }
-#header #headerTop #userlogin .topCart { background: url(images/sprites.png) -195px -40px; display:inline-block; width:20px; height:18px; position: relative; top: -1px;}
-#header #headerTop #userlogin .topCart a { margin-left: 24px; }
-#header #headerTop #loaderImgCart { display: none; width: 12px; height: 12px; margin-left: 2px; }
+#header #userlogin a { color: #267D92; }
+#header #userlogin a:hover { color: #3cb1cc; }
+#header #userlogin .topCart { background: url(images/sprites.png) -195px -40px; display:inline-block; width:20px; height:18px; position: relative; top: -1px;}
+#header #userlogin .topCart a { margin-left: 24px; }
+#header #loaderImgCart { display: none; width: 12px; height: 12px; margin-left: 2px; }
 
-#headerMiddle { 
-	height: 80px; width: 100%; 
-	background: white url(images/LD_header_bg.gif);
-}
 .headerSlot { width: 990px; height: 80px; display:inline; z-index: -1000; }
 #headerMiddle #logo {
 	display: inline;
@@ -76,32 +73,28 @@
 .headerContact a { color: #E97E15; }
 .headerContact .contactHeader { font-size: 12px; font-weight: normal; }
 .phoneFlag { width:21px; height:13px; background: url(images/sprites.png) -221px -40px; display:inline-block; position: relative; top: 4px; }
-.headerSearchBox { float: left; width: 340px; margin: 4px 0 0 20px; position:relative; }
+.headerSearchBox { float: left; margin: 4px 0 0 20px; position:relative; }
 .headerSearchBox fieldset {
 	border: none;
 	padding: 0;
 	margin: 0;
 }
-.headerSearchBox .inputContainer { float:right; width: 337px; height: 33px; background: url(images/sprites.png) -1px -1px; display:inline-block; }
+.headerSearchBox .inputContainer { float:right; width: 337px; height: 33px; display:inline-block; }
 .headerSearchBox .goButton {
-	width: 36px;
+	width: 63px;
 	height: 24px;
-	border: none;
+	border: 1px solid #dadada;
+	background: #fff;
+	padding: 0px 15px;
 	margin: 0 10px 0 5px;
 	display: inline-block;
-	padding: 0px;
-	text-indent: -9999px;
 	cursor: pointer;
-	background: url(images/sprites.png) -157px -36px;
 	text-transform: capitalize; }
-.headerSearchBox .goButton:hover { cursor: pointer; background-position: -157px -63px; }
+.headerSearchBox .goButton:hover { cursor: pointer; }
 .headerSearchBox .headerInput { 
 	background: url(images/search.png) no-repeat left top;
 	background-position: 4px 2px;
-	background-color: #fff;
-	-moz-border-radius: 10px; 
-	-webkit-border-radius: 10px; 
-	border-radius: 10px; 
+	background-color: #fff;	
 	width: 145px; 
 	height: 22px; 
 	border: 1px solid #E9E4D6; 
